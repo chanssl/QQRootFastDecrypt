@@ -163,3 +163,16 @@ _输出_
 ```
 
 > QQNT 的数据库、表名、列名含义，以及 protobuf 定义参考：https://github.com/QQBackup/QQDecrypt/tree/main/docs/view/db_file_analysis
+
+
+## 聊天记录优化脚本
+
+支持将聊天记录渲染为移动端左右分栏布局的界面，支持日期筛选和文字检索。
+
+```bash
+// 安装依赖
+pip install beautifulsoup4
+//运行脚本
+python export_chats_HTML_Beautifier.py
+```
+按提示拖拽需要渲染的HTML文件或者手动输入完整路径，并选择主对话人昵称，等待生成即可。
