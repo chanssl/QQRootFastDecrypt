@@ -1,3 +1,4 @@
+// Power by Gemini Pro 3.0
 # -*- coding: utf-8 -*-
 import os
 import sys
@@ -459,4 +460,5 @@ if __name__ == "__main__":
         input("\n按回车键退出程序...")
     else:
         print("\n⚠️ 未能在文件中提取到任何消息。")
+
         input("\n按回车键退出程序...")
